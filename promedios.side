@@ -1,0 +1,244 @@
+{
+  "id": "63107c0b-b4c8-4a32-82f9-589ac0329eb6",
+  "version": "2.0",
+  "name": "LIBRETAS",
+  "url": "https://siged3.siged.com.uy/sigedxcandersen/mislibretas.aspx",
+  "tests": [{
+    "id": "9de01dce-a953-4d72-ad83-afd80a59972c",
+    "name": "promedios",
+    "commands": [{
+      "id": "383e01f3-2649-491a-8202-95e6abeef2b5",
+      "comment": "",
+      "command": "open",
+      "target": "https://siged3.siged.com.uy/sigedxcandersen/menulibroprofesor.aspx?viQ8unIeIOW5+P7EXwGgpz6r8xbJkNMawGbQTyHfoAJ4HiFlaxGGk9upQNk1OYvCCXbBhoXGaCAs7CwrmKvwDA==",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddac3ba1-929d-43e2-a98d-512f512b2458",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1533x873",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "253bb5cf-f935-4b2e-9c83-f0471679364c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4a3d88-2203-4d43-97a7-1023d872d0d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Ha mantenido una actitud responsable y comprometida con sus trabajos en plataforma. Realiza las tareas con acierto e interactúa en las actividades con sus compañeros. Sigue así."
+    }, {
+      "id": "4b6f7c4a-6501-4754-995e-96594b64f453",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "873e50a3-7365-4052-b111-875da0a1632e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5424db53-22ed-40f8-9338-321917552b6e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40558ab0-4816-416a-9d05-19a3f580b2ab",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Buen alumno adelante"
+    }, {
+      "id": "087bdc8a-19a9-4752-a2ba-b6fe9e9ed5e9",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab74c901-ee81-4430-a267-840dbd4221fa",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e626ec-6393-451c-885b-0f3dc02dde65",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3543e767-cea8-4d1b-99ff-e417b750aba7",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Buen alumno adelante"
+    }, {
+      "id": "bb79617c-3025-4c4e-948b-38ecab2caaf8",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "940a7a75-0baa-489b-8808-4e82e52f5d54",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ecb6aa4-9e19-40e5-83a7-9586f3328748",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c7f351c-ec77-45b6-b39f-86da38e52f6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Buen alumno adelante"
+    }, {
+      "id": "66a2faf7-8f11-48b9-87dd-88d7a5432e43",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adb2329b-dc37-4fd6-be93-f36d969af1a3",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9ab4e60-63d9-452d-a0c2-c6846c4b1856",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://siged3.siged.com.uy/", "https://siged3.siged.com.uy/sigedxcandersen/mislibretas.aspx"],
+  "plugins": []
+}
