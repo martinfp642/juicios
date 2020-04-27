@@ -1,0 +1,1098 @@
+{
+  "id": "f90dd221-b3ef-408f-a042-ae61ce527077",
+  "version": "2.0",
+  "name": "libretas",
+  "url": "https://siged3.siged.com.uy",
+  "tests": [{
+    "id": "644e54c3-4e9d-4531-a067-020421863e07",
+    "name": "Promedios 1B",
+    "commands": [{
+      "id": "ab277edd-ff47-4980-8fff-ea77ff1423d8",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af2fb839-3bc8-40e3-802e-4b85e2592f47",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d13f692-66c6-4b6c-b868-aabb1b5cc477",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86f606ed-9232-411f-9c5e-1b32a1f3c111",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa317bcf-a596-488b-8735-b8a8bf124de3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(2)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'061 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "874c62a6-9d78-4ecc-a058-c616ba58d1bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1103fb1f-f14d-4404-bf40-bbbc03cd7a9f",
+      "comment": "",
+      "command": "times",
+      "target": "20",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee0a756a-f784-44be-b864-0a22f9e55e92",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Demuestra interés y trabajo constante en las instacias del curso online. Participa de los foros activamente y realiza las tareas correctamente. Continúa así."
+    }, {
+      "id": "42d1e558-235a-42c9-b910-997e43f733ca",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee78f830-590c-4f54-8aeb-90769327d913",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6438ab31-b235-4920-86fd-ba59e1a6ff2a",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "691b90f0-cb65-4974-9dff-9dbc7ad22063",
+    "name": "Promedios 2A",
+    "commands": [{
+      "id": "2bd4fc3a-a5c6-4249-b043-bdbbe6e7010b",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef9085f1-78c1-4891-b6f1-f7fc542e44a2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aecc6e5a-0f1c-41c1-9f6c-ca12b267497c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e54b92-a884-4123-b4b3-f3285589f010",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90539041-db1f-4d08-8a15-681674d8a1bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#vLIBID_chosen b",
+      "targets": [
+        ["css=#vLIBID_chosen b", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aeb349f-b785-4a7c-91a7-156b0cb6504f",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "627469de-3a21-47de-9c38-2e3c28eb5a89",
+      "comment": "",
+      "command": "times",
+      "target": "18",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee106aff-b0b1-40f8-ac80-7740ebcef09e",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Demuestra interés y trabajo constante en las instacias del curso online. Participa de los foros activamente y realiza las tareas correctamente. Continúa así."
+    }, {
+      "id": "57aab9b4-923c-4397-8127-bb38ec603c58",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec5b448-d727-40d5-94c0-57d9deb7793e",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b952821-9e14-4d42-a886-9eacb5c3e83e",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2827f766-0d08-495d-b121-a6be5e785374",
+    "name": "Promedios 2B",
+    "commands": [{
+      "id": "b449bec9-c201-4aa8-85ba-8768076d8302",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4199337-861e-47ee-8807-17e6cec82551",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca72d461-3d96-4524-98e9-cce6142965a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "807ce4cf-b46a-4281-996b-4dd025b38d22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e3d022-a70a-4cad-a247-2ce02ec4f2a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#vLIBID_chosen span",
+      "targets": [
+        ["css=#vLIBID_chosen span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'062 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1e92443-02b1-4606-ad00-b3ff6313b085",
+      "comment": "",
+      "command": "click",
+      "target": "css=#vLIBID_chosen b",
+      "targets": [
+        ["css=#vLIBID_chosen b", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33ee1250-2ce4-485c-96d1-3152e41542e5",
+      "comment": "",
+      "command": "times",
+      "target": "18",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1baf212c-368a-4afd-a612-b15171d596e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Demuestra interés y trabajo constante en las instacias del curso online. Participa de los foros activamente y realiza las tareas correctamente. Continúa así."
+    }, {
+      "id": "2eb46957-6f9d-48d3-9101-a0a808c1882f",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "771dc97f-816f-4507-a482-4029f965b9ae",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5136e12-ccf2-42c5-9f53-9d6e43646347",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7ffed593-898c-4a90-a7bf-fd83261375e1",
+    "name": "Promedios 3A",
+    "commands": [{
+      "id": "195e12d3-97aa-445e-9143-e54a39784e34",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04661b01-a1c3-4db8-9c0a-4981571e9f0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42492c5c-8e5b-4356-82d4-27c6ebb94ca1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5379a6db-3ed3-430c-97cb-076accb9c23b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a72ed2f-9c89-4a30-a1c6-805fbcb313d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#vLIBID_chosen b",
+      "targets": [
+        ["css=#vLIBID_chosen b", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64a9673c-bc58-454b-986d-ac9a0386feda",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f9cce5-8156-4a16-83eb-236ed032db53",
+      "comment": "",
+      "command": "times",
+      "target": "23",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "949238f5-1b23-4e86-9dc6-e346db0198b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Demuestra interés y trabajo constante en las instacias del curso online. Participa de los foros activamente y realiza las tareas correctamente. Continúa así."
+    }, {
+      "id": "45155217-f814-4d53-b884-ef6288ded549",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2be313b-44df-4011-9090-a849a00748cc",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96a5b15c-b98a-4e81-be26-448b0c69e004",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a4444003-d9cd-4e05-a63c-ac9be4a104b9",
+    "name": "Promedios 3B",
+    "commands": [{
+      "id": "1f6ad2d8-eaae-478e-9577-6b1c5cb632b2",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9da921c7-0317-4469-8d80-b5791538c121",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12f1ba16-3e8a-4c9a-a2e0-ae966e7074ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b04171c-c422-43d7-b4b6-c582cb270f17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94226599-e3c4-4e19-acee-150a60762d96",
+      "comment": "",
+      "command": "click",
+      "target": "css=b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2933f9cf-49b5-4a9f-96b2-1381c0464c58",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "602c548f-b445-4de3-ba3d-3b25b1c62cf7",
+      "comment": "",
+      "command": "times",
+      "target": "25",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d437ace2-2629-4939-88b6-fa6429070425",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Demuestra interés y trabajo constante en las instacias del curso online. Participa de los foros activamente y realiza las tareas correctamente. Continúa así."
+    }, {
+      "id": "11b84994-c13b-4b2e-9a2a-222ba9469ca8",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "105b56b1-9718-45be-be14-7d9bac9dca89",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9d15d53-1af6-4e56-a0cf-a295ba0de631",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4d79e7dc-d754-4099-9d8f-d8f17e66a063",
+    "name": "Promedios 4A Astronomia",
+    "commands": [{
+      "id": "a4c0f2df-7033-4d12-82f9-4346f06b51c4",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b71fa9fd-6291-42ea-ac4b-c90854d6b17b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "951e4885-1f38-4fb2-9421-f7fda5443e7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f645fb60-90ef-4f65-81ad-c60def479019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b20623d3-da0e-4cf5-8158-d88e5fe01688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(7)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'061 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44977260-9260-4e81-98fc-2cba931c8e84",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "951bb060-a895-4cf9-b5ca-0239c571f1e7",
+      "comment": "",
+      "command": "times",
+      "target": "19",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fbd39e9-70fa-4565-99c7-388ec76a9671",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Trabaja de forma constante y presenta interés en las temáticas planteadas. Se aprecia el trabajo en el foro de la plataforma crea2."
+    }, {
+      "id": "6ce7a5ad-b4f0-4732-897d-aef073d9a199",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0a0ad77-e67f-43e8-9847-d2b292ea088e",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c23b95b8-0629-4c2c-b44e-fcfc46992c44",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2b6a5cbe-dc5a-4c78-b7b2-41c6062eb231",
+    "name": "Promedios 4B Astronomia",
+    "commands": [{
+      "id": "4637d1a8-2ba4-499f-86fa-98b581270f15",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "503ae721-a0c1-4ce2-a963-8cf94274cc31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f08a75d-d706-4a9c-823b-6a1b7ea8c64c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aae3a3a-67ba-49e6-b86b-deb09c485f7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "926f1fe4-3a93-4544-a449-1564492907c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(9)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'061 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "096537cd-be33-4558-a131-6dee8efa452d",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a84ba9dd-0898-45c4-a45f-f088533a276c",
+      "comment": "",
+      "command": "times",
+      "target": "20",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76247882-f25b-49d1-a815-b1f18364349a",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Trabaja de forma constante y presenta interés en las temáticas planteadas. Se aprecia el trabajo en el foro de la plataforma crea2."
+    }, {
+      "id": "3cdb289a-f340-41b8-89a0-dcf7e69ea10e",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd1ed086-e133-4371-b9c2-5cf52a207935",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf67b13e-6172-4a92-a689-7964aca3a3ee",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7d007ac0-d5c7-435b-9777-25135e6e6e7f",
+    "name": "Promedios 4A Física",
+    "commands": [{
+      "id": "e8b38e76-e06e-4802-952b-a70bcb95ff27",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f7efd7a-b247-4667-af3c-945e2dc49a26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4135f722-e9a9-4883-87a8-cb25399e4683",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2092cbce-7c81-41a0-91be-72b4792b38a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "809fab7d-625c-44fa-b09f-1432f374b263",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(8)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'061 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf169900-afb2-47f8-802e-6f21448459b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e129ead8-5d3d-4846-ad85-9d41c7a37b86",
+      "comment": "",
+      "command": "times",
+      "target": "19",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebcdf86e-2ce4-4eb7-b806-baf0fbe453a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Trabaja de forma constante y presenta interés en las temáticas planteadas. Se aprecia el trabajo en el foro de la plataforma crea2."
+    }, {
+      "id": "914206f4-251a-4b79-b8cf-c9d2aa627697",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b830ef27-3b43-4f01-9be2-6e85e6d26437",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e313fbce-01ae-4a5a-980d-4c0813a8e34e",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9c38cabd-aef9-4faa-b426-68b878486d42",
+    "name": "Promedios 4B Física",
+    "commands": [{
+      "id": "770bed06-024b-4bf3-80ed-e9f039c869d3",
+      "comment": "",
+      "command": "open",
+      "target": "/sigedxcandersen/homebackend.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084d4503-2060-45c2-bad9-98e7c6ed22ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1456x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "defc1837-b8d3-4984-8a35-6977765520b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Evaluaciones Boletín",
+      "targets": [
+        ["linkText=Evaluaciones Boletín", "linkText"],
+        ["css=a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Evaluaciones Boletín')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"gx.getObj('', true).getUserControl('SLIDEDOWNMENU_MPAGEContainer').JSSDItemClicked(0,4);\"]", "xpath:attributes"],
+        ["xpath=//div[@id='Slidedownmenu']/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'abmcaliflibretaboletin.aspx?8A5+EesR54XvLTJUPJtqDNLeoNJx5/b0VrtGR4ubNJ3xH6aSmxBHYivMFUoBufaN')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Evaluaciones Boletín')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83df3ac0-9af8-46d0-a097-91ced754fa5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chosen-single > span",
+      "targets": [
+        ["css=.chosen-single > span", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Seleccione una libreta...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0f1f164-bd78-4539-88ca-ae56eb39f4b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-result:nth-child(10)",
+      "targets": [
+        ["css=.active-result:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='vLIBID_chosen']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'061 2 - CIENCIAS FÍSICAS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e66434-cbf0-4031-b115-ed0c6d68e9a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28989a12-4697-444e-adeb-41c402a4519b",
+      "comment": "",
+      "command": "times",
+      "target": "20",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69c724fa-d85f-4164-b953-95b8800c1935",
+      "comment": "",
+      "command": "type",
+      "target": "id=vCALIFXREUJUICIO_00010001",
+      "targets": [
+        ["id=vCALIFXREUJUICIO_00010001", "id"],
+        ["name=vCALIFXREUJUICIO_00010001", "name"],
+        ["css=#vCALIFXREUJUICIO_00010001", "css:finder"],
+        ["xpath=//textarea[@id='vCALIFXREUJUICIO_00010001']", "xpath:attributes"],
+        ["xpath=//tr[@id='GrillajuiciosContainer_0001Row_00010001']/td[18]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Trabaja de forma constante y presenta interés en las temáticas planteadas. Se aprecia el trabajo en el foro de la plataforma crea2."
+    }, {
+      "id": "ad466f4a-da21-4450-b048-2ff734333e06",
+      "comment": "",
+      "command": "click",
+      "target": "name=BTNGUARDARYSIGUIENTE_0001",
+      "targets": [
+        ["name=BTNGUARDARYSIGUIENTE_0001", "name"],
+        ["css=.beBtnGuardarYSiguiente", "css:finder"],
+        ["xpath=//input[@name='BTNGUARDARYSIGUIENTE_0001']", "xpath:attributes"],
+        ["xpath=//table[@id='TABLEBTNGUARDAR_0001']/tbody/tr/td[3]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/table/tbody/tr/td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26b1a95c-bdaf-4a9e-850c-3b276c3ad4b7",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bd0c148-bc75-4e12-9a58-433542c08a83",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a852f374-3865-4e94-a25e-048eda74006e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["644e54c3-4e9d-4531-a067-020421863e07"]
+  }, {
+    "id": "15cbf18f-c67f-4ee5-b36b-4931f08b49d0",
+    "name": "Inicializar libretas",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["644e54c3-4e9d-4531-a067-020421863e07", "691b90f0-cb65-4974-9dff-9dbc7ad22063", "2827f766-0d08-495d-b121-a6be5e785374", "7ffed593-898c-4a90-a7bf-fd83261375e1", "a4444003-d9cd-4e05-a63c-ac9be4a104b9", "4d79e7dc-d754-4099-9d8f-d8f17e66a063", "7d007ac0-d5c7-435b-9777-25135e6e6e7f", "9c38cabd-aef9-4faa-b426-68b878486d42", "2b6a5cbe-dc5a-4c78-b7b2-41c6062eb231"]
+  }],
+  "urls": ["https://siged3.siged.com.uy/"],
+  "plugins": []
+}
